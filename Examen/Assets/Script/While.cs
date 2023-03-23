@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class While : MonoBehaviour
 {
+    int num = 0;
     // Start is called before the first frame update
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        while (num < 10)
+        {
+            Debug.Log(num);
+            num++;
+        }
     }
 }
